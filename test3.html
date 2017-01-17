@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+</head>
+<body>
+<input type="text" class="date" placeholder="MM-DD-YYYY">
+<script>
+    jQuery(document).ready(function($){
+        $('.date').mask('MM-00-0000');
+    });
+</script>
+</body>
+</html>
